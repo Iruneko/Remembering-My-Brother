@@ -1380,3 +1380,39 @@ footer p {
     text-decoration: none;
   }
 }
+/* Strong fix for Read the Journal button */
+a.journal-button,
+a.journal-button:link,
+a.journal-button:visited {
+  display: inline-block !important;
+  margin-top: 20px !important;
+  padding: 14px 28px !important;
+  background-color: #d99a2b !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  border-radius: 30px !important;
+  font-weight: bold !important;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15) !important;
+}
+
+a.journal-button:hover {
+  background-color: #c5831f !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+  a.journal-button,
+  a.journal-button:link,
+  a.journal-button:visited {
+    display: inline-block !important;
+    margin-top: 18px !important;
+    padding: 13px 26px !important;
+    background-color: #d99a2b !important;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    border-radius: 30px !important;
+    font-weight: bold !important;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15) !important;
+  }
+}
