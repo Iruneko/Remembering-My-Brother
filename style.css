@@ -1227,3 +1227,118 @@ footer p {
   line-height: 2;
   letter-spacing: 0.04em;
 }
+/* Responsive design for mobile */
+@media (max-width: 700px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  header {
+    padding: 24px 14px 18px;
+  }
+
+  .site-title h1 {
+    font-size: 2.2rem !important;
+    line-height: 1.1;
+  }
+
+  .site-title p {
+    font-size: 0.95rem !important;
+  }
+
+  .jp-subtitle {
+    font-size: 0.9rem !important;
+    line-height: 1.6;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 8px;
+  }
+
+  nav a {
+    font-size: 0.85rem !important;
+    padding: 7px 10px !important;
+  }
+
+  main {
+    padding: 18px 12px;
+  }
+
+  .content-card,
+  .note-box,
+  .special-thanks,
+  .official-movie-links {
+    width: 100%;
+    max-width: 100%;
+    padding: 22px 18px !important;
+    margin: 22px auto !important;
+    border-radius: 20px !important;
+  }
+
+  .content-card h2,
+  .note-box h2 {
+    font-size: 1.45rem !important;
+    line-height: 1.3;
+  }
+
+  .content-card p,
+  .note-box p,
+  .japanese {
+    font-size: 0.95rem !important;
+    line-height: 1.8 !important;
+  }
+
+  .page-banner {
+    margin: 18px auto 22px;
+    padding: 0 10px;
+  }
+
+  .page-banner img {
+    width: 100%;
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 18px;
+  }
+
+  .movie-links {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .movie-links a {
+    width: 100%;
+    font-size: 0.9rem !important;
+    padding: 11px 14px !important;
+    text-align: center;
+    border-radius: 18px !important;
+  }
+
+  .special-thanks::before {
+    font-size: 2rem !important;
+    top: 10px;
+    right: 12px;
+  }
+
+  .special-thanks h2 {
+    font-size: 2rem !important;
+  }
+
+  .special-subtitle {
+    font-size: 0.95rem !important;
+    line-height: 1.6;
+  }
+
+  footer {
+    padding: 24px 14px;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}
