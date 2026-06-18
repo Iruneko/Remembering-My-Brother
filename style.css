@@ -1342,3 +1342,41 @@ footer p {
     font-size: 0.9rem;
   }
 }
+/* Fix Journal button style on mobile */
+.journal-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  background-color: #d99a2b;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.journal-button:hover {
+  background-color: #c5831f;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .journal-button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 13px 26px;
+    background-color: #d99a2b;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  }
+
+  .journal-button:hover {
+    background-color: #c5831f;
+    color: white;
+    text-decoration: none;
+  }
+}
