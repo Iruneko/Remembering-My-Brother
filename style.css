@@ -1342,3 +1342,142 @@ footer p {
     font-size: 0.9rem;
   }
 }
+/* Smaller mobile layout */
+@media (max-width: 700px) {
+
+  body {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+  }
+
+  header {
+    padding: 18px 10px 14px !important;
+  }
+
+  .site-title h1 {
+    font-size: 1.9rem !important;
+    line-height: 1.05 !important;
+  }
+
+  .site-title p,
+  .jp-subtitle,
+  .creator-note {
+    font-size: 0.78rem !important;
+    line-height: 1.4 !important;
+    margin: 4px 0 !important;
+  }
+
+  nav {
+    gap: 6px !important;
+    padding: 8px 6px 12px !important;
+  }
+
+  nav a {
+    font-size: 0.75rem !important;
+    padding: 6px 9px !important;
+    border-radius: 18px !important;
+  }
+
+  main {
+    padding: 12px 10px !important;
+  }
+
+  .hero {
+    margin-top: 14px !important;
+    margin-bottom: 24px !important;
+    padding: 0 8px !important;
+  }
+
+  .hero-photo-frame {
+    height: 180px !important;
+    border-radius: 20px !important;
+  }
+
+  .hero-photo-frame img {
+    border-radius: 20px !important;
+  }
+
+  .hero-text h2 {
+    font-size: 1.25rem !important;
+    margin-bottom: 5px !important;
+  }
+
+  .hero-text p {
+    font-size: 0.85rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .welcome-section,
+  .memory-section,
+  .qa-section {
+    margin: 22px auto !important;
+    padding: 0 10px !important;
+  }
+
+  .welcome-card,
+  .content-card,
+  .memory-card,
+  .note-box,
+  .special-thanks,
+  .journal-feature {
+    padding: 18px 15px !important;
+    margin: 18px auto !important;
+    border-radius: 16px !important;
+  }
+
+  .welcome-card h2,
+  .content-card h2,
+  .note-box h2,
+  .journal-feature h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.25 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .welcome-card p,
+  .content-card p,
+  .memory-card p,
+  .note-box p,
+  .journal-feature p,
+  .japanese {
+    font-size: 0.84rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 11px !important;
+  }
+
+  .page-banner {
+    margin: 14px auto 18px !important;
+    padding: 0 8px !important;
+  }
+
+  .page-banner img {
+    max-height: 210px !important;
+    border-radius: 16px !important;
+  }
+
+  .journal-button,
+  a.journal-button,
+  a.journal-button:link,
+  a.journal-button:visited {
+    font-size: 0.82rem !important;
+    padding: 10px 20px !important;
+    border-radius: 24px !important;
+    margin-top: 14px !important;
+  }
+
+  .header-drum {
+    width: 70px !important;
+    top: 12px !important;
+    left: 12px !important;
+  }
+
+  footer {
+    padding: 18px 10px !important;
+    margin-top: 24px !important;
+  }
+
+  footer p {
+    font-size: 0.78rem !important;
+    line-height: 1.4 !important;
+  }
+}
